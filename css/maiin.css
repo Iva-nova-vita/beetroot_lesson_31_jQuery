@@ -1,0 +1,50 @@
+body {
+  background-image: url(../images/BG.jpg);
+  background-size: cover;
+}
+#container {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 600px;
+  height: 540px;
+  font-size: 0px;
+  position: absolute;
+}
+#container p {
+  font-size: 20px;
+  line-height: 20px;
+}
+.tabs {
+  display: inline-block;
+  height: 115px;
+  width: 200px;
+  background-color: #2b3040;
+  color: white;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+.content {
+  background-color: #212534;
+  height: 375px;
+  width: 600px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.active_tabs {
+  color: white;
+  border-bottom: 2px white solid;
+}
+.inactive_tabs {
+  color: #8d91a3;
+}
+.active_content {
+  display: block;
+}
+.inactive_content {
+  display: none;
+}
